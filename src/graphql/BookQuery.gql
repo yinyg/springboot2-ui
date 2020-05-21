@@ -1,0 +1,12 @@
+query getBookList{
+      list(page: 1,size: 3){
+          books{
+              bookId
+              bookName
+              bookKindStr
+          }
+          page{
+              total
+          }
+      }
+     }
